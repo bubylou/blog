@@ -1,0 +1,4 @@
+baseURL = 'https://blog.bubylou.com/'
+languageCode = 'en-us'
+title = 'Personal blog site'
+theme = 'PaperMod'
