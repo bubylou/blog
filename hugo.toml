@@ -1,4 +1,28 @@
-baseURL = 'https://blog.bubylou.com/'
+baseURL = 'https://bubylou.github.io/blog/'
 languageCode = 'en-us'
-title = 'Personal blog site'
+title = "Bubylou's Based Blog"
 theme = 'PaperMod'
+
+[params]
+env = 'production'
+ShowShareButtons = true
+ShowReadingTime = true
+ShowToc = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params.homeInfoParams]
+Title = 'Suh dude?'
+Content = 'Beware all who enter here, there be nerd content.'
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/bubylou'
+
+[[params.socialIcons]]
+name = 'linkedin'
+url = 'https://linkedin.com/in/nicholas-malcolm-3185bb91/'
